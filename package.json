@@ -1,4 +1,10 @@
 {
   "name": "sawmon-ssh",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "dependencies": {
+    "node-ssh": "^3.0.1",
+    "promise-queue": "^2.2.3",
+    "request-promise": "^4.1.1",
+    "request": "^2.78.0"
+  }
 }
