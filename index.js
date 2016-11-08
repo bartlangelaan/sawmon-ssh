@@ -70,7 +70,7 @@ module.exports.servers.refresh = passTrough => {
 
         connections[passTrough.instance._id] = createNewConnection(passTrough.instance._id);
 
-        return connections[passTrough.instance._id];
+        return Promise.resolve(connections[passTrough.instance._id]);
 
     };
 };
